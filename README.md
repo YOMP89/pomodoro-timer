@@ -1,5 +1,5 @@
 # Aplicación Web Pomodoro
-
+!(Pantallazo del proyecto)[pantallazoProyecto.jpg]
 Esta aplicación web implementa la técnica Pomodoro para mejorar la productividad y la gestión del tiempo. El método Pomodoro consiste en trabajar en intervalos de 25 minutos (llamados "pomodoros") seguidos de breves descansos de 5 minutos. Después de completar cuatro pomodoros, se toma un descanso más largo.
 
 ## Características
