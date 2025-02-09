@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div class="timer">
+            <div class="time-display">25:00</div>
+            <div class="phase">Trabajo</div>
+        </div>
+        <div class="controls">
+            <button id="startPause">Iniciar</button>
+            <button id="reset">Reiniciar</button>
+        </div>
+        <div class="stats">
+            <p>Ciclos completados: <span id="cycles">0</span></p>
+        </div>
+    </div>
+    <audio id="alarm" src="https://assets.mixkit.co/sfx/preview/mixkit-alarm-digital-clock-beep-989.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
